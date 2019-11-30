@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "angularadminamplify",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authangularadminamplify53df8ec8",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
